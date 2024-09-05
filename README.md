@@ -36,24 +36,6 @@ If you are interested in running the application locally, please use the followi
 
 See Deployed App on [Render](https://booksearchengine-7l7c.onrender.com/)
 
-## Deployment
-To deploy the application to [Render](https://render.com):
-
-1. Create a new **Web Service** on Render and link it to your GitHub repository.
-2. Set the following environment variables in Render's settings:
-    - `MONGODB_URI`
-    - `JWT_SECRET`
-    - `REACT_APP_GRAPHQL_ENDPOINT`
-3. Set the **Build Command** to:
-    ```bash
-    npm install --legacy-peer-deps && npm run build
-    ```
-4. Set the **Start Command** to:
-    ```bash
-    npm start
-    ```
-5. Render will handle the deployment process. Once deployed, you will get a live URL for your app.
-
 ## Technologies Used
 - **MongoDB**: For database and storing user and book data
 - **Express.js**: Backend framework to handle routing and GraphQL API
