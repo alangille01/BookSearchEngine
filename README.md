@@ -7,7 +7,6 @@ This is a refactored book search engine built using the MERN stack (MongoDB, Exp
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
 - [License](#license)
 
